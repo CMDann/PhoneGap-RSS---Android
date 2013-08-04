@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+<!-- <link rel="stylesheet"
+	href="http://code.jquery.com/mobile/latest/jquery.mobile.min.css" /> -->
+<link rel="stylesheet" href="./styles/style.css" />
+<script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+<script src="main.js"></script>
+<script src="http://code.jquery.com/mobile/latest/jquery.mobile.min.js"></script>
+</head>
+<body>
+
+	<div data-role="page" id="mainPage">
+
+		<div data-role="header">
+			<h1></h1>
+		</div>
+		<div id="banner">
+			<img src="./images/KID.png" alt="child">
+		</div>
+
+		<div id="vision">
+			<h2>Our Vision:</h2>
+			<p>
+				A child’s secure attachment to at least one caregiver is the
+				foundation of healthy human development.<br>For this reason,
+				the importance of attachment should be understood and seen as an
+				integral part of being human.
+			</p>
+		</div>
+
+		<div>
+			<h2 class="orangeHead">Upcoming Events:</h2>
+		</div>
+		<div data-role="content">
+			<ul id="linksList" data-role="listview" data-inset="true"></ul>
+		</div>
+
+		<div id="donations">
+			<!-- Begin PayPal Donations by http://johansteen.se/ -->
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+				<div class="paypal-donations">
+					<input type="hidden" name="cmd" value="_donations"> <input
+						type="hidden" name="business"
+						value="attachmentnetworkmb@gmail.com"> <input
+						type="hidden" name="item_name" value="Donation"><input
+						type="hidden" name="currency_code" value="CAD"><input
+						type="image"
+						src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif"
+						name="submit" alt="PayPal - The safer, easier way to pay online.">
+				</div>
+			</form>
+			<!-- End PayPal Donations -->
+
+		</div>
+
+		<div data-role="footer">
+			<h4>The Attachment Network</h4>
+		</div>
+
+
+	</div>
+
+	<div data-role="page" id="contentPage">
+
+		<div data-role="header">
+			<a href="#mainPage" data-rel="back">Home</a>
+			<h1></h1>
+		</div>
+		
+		<div id="banner">
+			<img src="./images/KID.png" alt="child">
+		</div>
+
+		<div data-role="content" id="entryText"></div>
+		
+		<div id="donations">
+			<!-- Begin PayPal Donations by http://johansteen.se/ -->
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+				<div class="paypal-donations">
+					<input type="hidden" name="cmd" value="_donations"> <input
+						type="hidden" name="business"
+						value="attachmentnetworkmb@gmail.com"> <input
+						type="hidden" name="item_name" value="Donation"><input
+						type="hidden" name="currency_code" value="CAD"><input
+						type="image"
+						src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif"
+						name="submit" alt="PayPal - The safer, easier way to pay online.">
+				</div>
+			</form>
+			<!-- End PayPal Donations -->
+
+		</div>
+
+	</div>
+
+
+
+</body>
+</html>
