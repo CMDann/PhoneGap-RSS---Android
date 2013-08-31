@@ -1,5 +1,6 @@
 PhoneGap-RSS--Android
 ======================
+<a href="https://coderwall.com/cmdann"><img alt="Endorse CMDann on Coderwall" src="https://api.coderwall.com/cmdann/endorsecount.png" /></a>
 
 This is and Android application that was built using PhoneGap. PhoneGap is a framework for developing native applications that are essentially web apps. This is useful for small compaines that want to give you a feed to their posts and events that is directly from their website.
 
