@@ -5,7 +5,7 @@ $(document)
 					// Title of the blog
 					var TITLE = "The Attachment Network of Manitoba";
 					// RSS url
-					var RSS = "https://attachmentnetwork.ca/events/feed/";
+					var RSS = "http://attachmentnetwork.ca/events/feed/";
 					// Stores entries
 					var entries = [];
 					var selectedEntry = "";
